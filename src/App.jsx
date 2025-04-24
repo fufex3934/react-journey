@@ -1,5 +1,6 @@
 import Avatar from "./Avatar";
 import Gallery from "./Gallery";
+import PackingList from "./PackingList";
 import TodoList from "./TodoList";
 
 
@@ -22,6 +23,8 @@ function App() {
           name: 'Katsuko Saruhashi',
           imageId: 'YfeOqp2'
         }}/>
+        <PackingList/>
+        
     </>
   );
 }
