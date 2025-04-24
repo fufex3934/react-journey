@@ -1,12 +1,5 @@
-const person = {
-  name:'Gregorio y. Zara',
-  theme:{
-    backgroundColor:'black',
-    color:'pink'
-  }
-};
 
-export default function TodoList() {
+export default function TodoList({person}) {
   return (
     <div style={person.theme} className="container mx-auto mt-4">
       <h1 className="font-extrabold text-2xl py-2">{person.name}'s Todos</h1>
