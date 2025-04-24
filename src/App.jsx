@@ -1,5 +1,6 @@
 import Avatar from "./Avatar";
 import Gallery from "./Gallery";
+import List from "./List";
 import PackingList from "./PackingList";
 import TodoList from "./TodoList";
 
@@ -24,6 +25,7 @@ function App() {
           imageId: 'YfeOqp2'
         }}/>
         <PackingList/>
+        <List/>
         
     </>
   );
