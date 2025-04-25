@@ -1,7 +1,9 @@
 import Avatar from "./Avatar";
+import EventHandling from "./EventHandling";
 import Gallery from "./Gallery";
 import List from "./List";
 import PackingList from "./PackingList";
+import StateDemo from "./StateDemo";
 import TodoList from "./TodoList";
 import Toolbar from "./Toolbar";
 
@@ -31,6 +33,8 @@ function App() {
         onPlayMovie={() => alert("Playing!")}
         onUploadImage={() => alert("Uploading!")}
       />
+      <EventHandling/>
+      <StateDemo/>
     </>
   );
 }
